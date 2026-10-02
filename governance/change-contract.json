@@ -1,0 +1,8 @@
+{
+  "outcome": "提供不依賴任何既有產品的 Kaizen、穩進與 Shell 執行證據工具包",
+  "affected_surfaces": ["portable documentation", "stdlib Python runner", "self tests"],
+  "preserve": ["no project names", "no credentials", "no deployment action", "no shell=True"],
+  "prohibited": ["copying customer data", "automatic force push", "automatic destructive command", "claiming unexecuted work as PASS"],
+  "required_checks": ["unit tests", "runner doctor", "runner project-check", "zip integrity"],
+  "proof_layers": ["local executable proof", "archive integrity"]
+}

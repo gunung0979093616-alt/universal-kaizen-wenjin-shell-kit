@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local evidence and generated archives
+.codex-shell-evidence/
+*.zip
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
