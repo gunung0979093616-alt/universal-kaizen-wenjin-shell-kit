@@ -1,0 +1,36 @@
+name: Bug report / 錯誤回報
+description: Report a reproducible problem / 回報可重現的問題
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include secrets, credentials, customer data, or personal information. / 請勿提供機密、憑證、客戶資料或個人資訊。"
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem / 問題
+      description: What happened, and what did you expect? / 實際發生什麼？預期結果為何？
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps / 重現步驟
+      placeholder: "1. ..."
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / 環境
+      description: OS and Python version / 作業系統與 Python 版本
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Redacted output / 已遮罩輸出
+      description: Remove secrets and personal data before posting. / 發布前請移除機密與個人資料。
+    validations:
+      required: false

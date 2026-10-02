@@ -1,0 +1,23 @@
+name: Feature request / 功能建議
+description: Suggest a focused improvement / 提出範圍明確的改善建議
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve / 想解決的問題
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change / 建議作法
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected behavior and preserved behavior / 預期行為與需保留行為
+    validations:
+      required: true

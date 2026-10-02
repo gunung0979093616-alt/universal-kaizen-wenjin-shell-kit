@@ -2,6 +2,8 @@
 
 [English](README.en.md)
 
+專案名稱以 `universal` 說明可攜範圍、`kaizen-wenjin` 說明方法、`shell-kit` 說明交付形式；GitHub repository 名稱使用小寫與連字號，方便閱讀、搜尋與輸入。
+
 這是一個可複製到任何程式專案的輕量工具包；不含任何客戶資料、API 金鑰、品牌、網址或特定雲端平台設定。
 
 它把三件事接在一起：
@@ -32,6 +34,8 @@
 python3 .codex/tools/shell_gate.py doctor --cwd .
 python3 .codex/tools/shell_gate.py project-check --cwd .
 ```
+
+完整安裝與使用範例見 [`docs/USAGE.md`](docs/USAGE.md)。
 
 這兩項唯讀，不會修改原始碼、Git 或部署。
 

@@ -2,6 +2,8 @@
 
 [繁體中文](README.md)
 
+The name uses `universal` for portability, `kaizen-wenjin` for the method, and `shell-kit` for the deliverable. The GitHub repository uses lowercase words separated by hyphens for readability and easy typing.
+
 A portable engineering toolkit for making small verifiable changes, preserving existing behavior, and collecting real command-execution evidence.
 
 ## What it provides
@@ -27,6 +29,8 @@ It does not automatically commit, push, deploy, modify databases, or use third-p
 python3 .codex/tools/shell_gate.py doctor --cwd .
 python3 .codex/tools/shell_gate.py project-check --cwd .
 ```
+
+See [`docs/USAGE.md`](docs/USAGE.md) for the complete installation and usage guide.
 
 ## Verification
 
