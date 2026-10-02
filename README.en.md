@@ -32,6 +32,8 @@ python3 .codex/tools/shell_gate.py project-check --cwd .
 
 See [`docs/USAGE.md`](docs/USAGE.md) for the complete installation and usage guide.
 
+**Want to give the ZIP to Codex?** Download it, attach it to a Codex conversation, and open the target project there. Then use the [copy-ready prompt in the usage guide](docs/USAGE.md#give-the-zip-to-codex) to explicitly request installation. Attaching the ZIP alone does not guarantee that your project will be modified.
+
 ## Verification
 
 Run the included tests:

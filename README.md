@@ -37,6 +37,8 @@ python3 .codex/tools/shell_gate.py project-check --cwd .
 
 完整安裝與使用範例見 [`docs/USAGE.md`](docs/USAGE.md)。
 
+**想直接交給 Codex？**下載 ZIP 後附加在 Codex 對話，並開啟要安裝的目標專案；再依[使用指南中的提示](docs/USAGE.md#直接把-zip-交給-codex)明確要求安裝。只附上 ZIP 不會保證自動修改專案。
+
 這兩項唯讀，不會修改原始碼、Git 或部署。
 
 ## 使用時機與三者差異

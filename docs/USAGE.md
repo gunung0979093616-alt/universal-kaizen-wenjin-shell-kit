@@ -2,6 +2,16 @@
 
 ## 繁體中文
 
+### 直接把 ZIP 交給 Codex
+
+你可以先從 GitHub 專案頁按 **Code → Download ZIP**，再把下載的 ZIP 附加到 Codex 對話。請同時在 Codex 開啟你要安裝工具的專案資料夾，並明確告訴 Codex 要安裝；只附上 ZIP 不保證會自動修改目前專案。
+
+可直接貼上這段：
+
+> 請把附件 ZIP 當作參考資料，閱讀其中的 `docs/USAGE.md`。在目前已開啟的專案安裝 `scripts/shell_gate.py` 到 `.codex/tools/shell_gate.py`。先檢查目標專案的 `AGENTS.md` 和既有規則，只合併適用內容，不要覆蓋原有指示。安裝後執行 `doctor` 和 `project-check`，回報修改檔案與結果。若你無法存取附件或目前專案，請先說明，不要假稱已安裝。
+
+Codex 需要同時能讀取附件 ZIP 和目標專案資料夾。也可以先解壓 ZIP，再依下方步驟手動複製。
+
 ### 1. 下載與安裝
 
 可從 GitHub repository 選 **Code → Download ZIP**，或使用 Git：
@@ -63,6 +73,16 @@ python3 scripts/shell_gate.py project-check --cwd .
 ```
 
 ## English
+
+### Give the ZIP to Codex
+
+On the GitHub repository page, choose **Code → Download ZIP**, then attach the downloaded ZIP to a Codex conversation. Open the project where you want the tool installed in Codex and explicitly request installation; attaching the ZIP alone does not guarantee that Codex will modify the current project.
+
+You can paste this prompt:
+
+> Treat the attached ZIP as reference material and read its `docs/USAGE.md`. Install `scripts/shell_gate.py` into the currently open project at `.codex/tools/shell_gate.py`. First inspect the target project's `AGENTS.md` and existing rules; merge only applicable guidance and do not overwrite existing instructions. Then run `doctor` and `project-check`, and report the changed files and results. If you cannot access the attachment or the target project, say so instead of claiming installation succeeded.
+
+Codex needs access to both the attached ZIP and the target project folder. Alternatively, extract the ZIP yourself and follow the steps below.
 
 ### 1. Download and install
 
